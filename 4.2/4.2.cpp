@@ -71,8 +71,7 @@ int Calculation(char* fname)
 
 int main()
 {
-	char fname[100];
-	cout << "enter file name 1: "; cin >> fname;
+	char fname[1] = {'t'};
 	CreateTXT(fname);
 	PrintTXT(fname);
 	cout << "Max spase = " << Calculation(fname);
